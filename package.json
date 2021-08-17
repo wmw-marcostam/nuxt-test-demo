@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-test-utils",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/test-utils": "0.2.2",
+    "jest": "27.0.6",
+    "nuxt": "^2.15.0",
+    "playwright": "1.12.3"
+  },
+  "keywords": []
+}
